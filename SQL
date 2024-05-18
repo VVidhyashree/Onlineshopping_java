@@ -1,0 +1,8 @@
+mysql> CREATE TABLE ORDERS (
+    ->     Order_No INT PRIMARY KEY,
+    ->     Customer_Name VARCHAR(100),
+    ->     Gender VARCHAR(10),
+    ->     Shipping_Address VARCHAR(255),
+    ->     Product VARCHAR(100),
+    ->     Total_Cost FLOAT
+    -> );
